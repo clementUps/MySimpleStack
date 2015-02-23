@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class MySimpleStack implements SimpleStack {
     private ArrayList<Item> items;
     private int nb;
+
     public MySimpleStack(){
         items = new ArrayList<Item>();
     }
@@ -33,6 +34,7 @@ public class MySimpleStack implements SimpleStack {
 
     @Override
     public Item peek() throws EmptyStackException {
+
         return null;
     }
 
